@@ -1,0 +1,391 @@
+body{
+    background-color: black;
+}
+
+#content{
+    width: 100%;
+    background-color: rgba(230,226,217,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title-form{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+#inner-content{
+    width: 600px;
+    background-color: rgba(30,30,30,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.input-label{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    overflow-y: hidden;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+input{
+    border-radius: 20px;
+    border: solid white 3px;
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    outline: none;
+}
+
+textarea{
+    border-radius: 20px;
+    border: solid white 3px;
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    outline: none;
+}
+
+button{
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgba(218,41,42,255);
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+@media (max-width: 1030px){
+    body{
+        background-color: black;
+    }
+    
+    #content{
+        width: 100%;
+        height: calc(100% - 111px);
+        background-color: rgba(230,226,217,255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+    }
+    
+    #title-form{
+        font-size: 40px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+    }
+    
+    #inner-content{
+        width: 600px;
+        height: 800px;
+        background-color: rgba(30,30,30,255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        border-radius: 8px;
+        padding: 30px;
+    }
+    
+    .input-label{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 25px;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        overflow-y: hidden;
+    }
+    
+    ::-webkit-scrollbar{
+        width: 0px;
+    }
+    
+    input{
+        border-radius: 20px;
+        border: solid white 3px;
+        padding: 5px;
+        background-color: transparent;
+        color: white;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        outline: none;
+    }
+    
+    textarea{
+        border-radius: 20px;
+        border: solid white 3px;
+        padding: 5px;
+        background-color: transparent;
+        color: white;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        outline: none;
+    }
+    
+    button{
+        width: 100%;
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: rgba(218,41,42,255);
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        color: white;
+        border: none;
+        margin-top: 10px;
+    }
+    
+    button:hover{
+        cursor: pointer;
+        background-color: red;
+    }
+
+    #footer{
+        display: flex;
+        align-items: center;
+        background-color: rgba(37,37,37,255);
+        color: white;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+}
+
+@media (max-width: 800px){
+    body{
+        background-color: black;
+    }
+    
+    #content{
+        width: 100%;
+        height: calc(100% - 190px);
+        background-color: rgba(230,226,217,255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+    }
+    
+    #title-form{
+        font-size: 30px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+    }
+    
+    #inner-content{
+        width: 350px;
+        height: 500px;
+        background-color: rgba(30,30,30,255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        border-radius: 8px;
+        padding: 10px;
+    }
+    
+    .input-label{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        font-size: 18px;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        overflow-y: hidden;
+    }
+    
+    ::-webkit-scrollbar{
+        width: 0px;
+    }
+    
+    input{
+        border-radius: 20px;
+        border: solid white 3px;
+        padding: 5px;
+        background-color: transparent;
+        color: white;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        outline: none;
+    }
+    
+    textarea{
+        border-radius: 20px;
+        border: solid white 3px;
+        padding: 5px;
+        background-color: transparent;
+        color: white;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        outline: none;
+    }
+    
+    button{
+        width: 100%;
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgba(218,41,42,255);
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        color: white;
+        border: none;
+        margin-top: 10px;
+    }
+    
+    button:hover{
+        cursor: pointer;
+        background-color: red;
+    }
+
+    #footer{
+        display: flex;
+        align-items: center;
+        background-color: rgba(37,37,37,255);
+        color: white;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+}
+
+@media (max-width: 500px){
+    body{
+        background-color: black;
+    }
+    
+    #content{
+        width: 100%;
+        height: calc(100% - 190px);
+        background-color: rgba(230,226,217,255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: static;
+    }
+    
+    #title-form{
+        font-size: 30px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+    }
+    
+    #inner-content{
+        width: 350px;
+        height: 500px;
+        background-color: rgba(30,30,30,255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        border-radius: 8px;
+        padding: 10px;
+    }
+    
+    .input-label{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        font-size: 18px;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        overflow-y: hidden;
+    }
+    
+    ::-webkit-scrollbar{
+        width: 0px;
+    }
+    
+    input{
+        border-radius: 20px;
+        border: solid white 3px;
+        padding: 5px;
+        background-color: transparent;
+        color: white;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        outline: none;
+    }
+    
+    textarea{
+        border-radius: 20px;
+        border: solid white 3px;
+        padding: 5px;
+        background-color: transparent;
+        color: white;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        outline: none;
+    }
+    
+    button{
+        width: 100%;
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgba(218,41,42,255);
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        color: white;
+        border: none;
+        margin-top: 10px;
+    }
+    
+    button:hover{
+        cursor: pointer;
+        background-color: red;
+    }
+
+    #footer{
+        display: flex;
+        align-items: center;
+        background-color: rgba(37,37,37,255);
+        color: white;
+        position: static;
+        width: 100%;
+        bottom: auto;
+    }
+}

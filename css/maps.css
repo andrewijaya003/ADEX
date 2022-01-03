@@ -1,0 +1,461 @@
+body{
+    background-color: black;
+}
+
+.background-img{
+    width: 100%;
+}
+
+.background-img-red{
+    width: 100%;
+    height: 375px;
+    object-fit: cover;
+}
+
+#first-content{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: black;
+}
+
+#second-content{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: black;
+}
+
+#third-content{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: black;
+}
+
+#first-inner-content{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#desc-first-inner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 890px;
+}
+
+#title-desc-first-inner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#text-desc-first-inner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+
+#button-first-inner-content{
+    width: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+#arena-button-first-inner-content, #battle-button-first-inner-content{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Rajdhani', sans-serif;
+    padding: 10px;
+    border: solid white 3px;
+    border-radius: 3px;
+}
+
+#arena-button-first-inner-content:hover, #battle-button-first-inner-content:hover{
+    background-color: black;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+#second-inner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#arena-second-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-second-content{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.title-header-second-content{
+    font-size: 54px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+.desc-header-second-content{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Rajdhani', sans-serif;
+    width: 890px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.button-header-second-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-maps{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Rajdhani', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: solid white 3px;
+}
+
+.button-maps:hover{
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+    transition: 0.3s;
+    border-bottom: solid rgb(255, 0, 0) 3px;
+}
+
+.maps-img{
+    width: 100%;
+}
+
+#third-inner-content{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#place-third-inner-content{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title-third-inner-content{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+
+#text-1-third-inner-content{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#button-third-inner-content{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Rajdhani', sans-serif;
+    padding: 10px;
+    border: solid white 3px;
+    border-radius: 3px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+#button-third-inner-content:hover{
+    background-color: black;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+#text-2-third-inner-content{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+@media (max-width: 800px){
+    body{
+        background-color: black;
+    }
+    
+    .background-img{
+        width: 100%;
+    }
+    
+    .background-img-red{
+        width: 100%;
+        height: 375px;
+        object-fit: cover;
+    }
+    
+    #first-content{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: black;
+    }
+    
+    #second-content{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: black;
+    }
+    
+    #third-content{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: black;
+    }
+    
+    #first-inner-content{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    
+    #desc-first-inner-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+    }
+    
+    #title-desc-first-inner-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #text-desc-first-inner-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    #button-first-inner-content{
+        width: 350px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+    }
+    
+    #arena-button-first-inner-content, #battle-button-first-inner-content{
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Rajdhani', sans-serif;
+        padding: 10px;
+        border: solid white 3px;
+        border-radius: 3px;
+    }
+    
+    #arena-button-first-inner-content:hover, #battle-button-first-inner-content:hover{
+        background-color: black;
+        opacity: 0.6;
+        transition: 0.5s;
+    }
+    
+    #second-inner-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #arena-second-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header-second-content{
+        width: 100%;
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+    }
+    
+    .title-header-second-content{
+        font-size: 30px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+    }
+    
+    .desc-header-second-content{
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Rajdhani', sans-serif;
+        width: 350px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    
+    .button-header-second-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .button-maps{
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Rajdhani', sans-serif;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-bottom: solid white 3px;
+    }
+    
+    .button-maps:hover{
+        cursor: pointer;
+        color: rgb(255, 0, 0);
+        transition: 0.3s;
+        border-bottom: solid rgb(255, 0, 0) 3px;
+    }
+    
+    .maps-img{
+        width: 100%;
+    }
+    
+    #third-inner-content{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    
+    #place-third-inner-content{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #title-third-inner-content{
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    
+    #text-1-third-inner-content{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    #button-third-inner-content{
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Rajdhani', sans-serif;
+        padding: 10px;
+        border: solid white 3px;
+        border-radius: 3px;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    
+    #button-third-inner-content:hover{
+        background-color: black;
+        opacity: 0.6;
+        transition: 0.5s;
+    }
+    
+    #text-2-third-inner-content{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        font-size: 13px;
+        text-align: center;
+    }
+}

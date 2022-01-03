@@ -1,0 +1,551 @@
+body{
+    background-color: black;
+}
+
+.background-img{
+    width: 100%;
+}
+
+.background-img-red{
+    width: 100%;
+    height: 375px;
+    object-fit: cover;
+}
+
+#first-content{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: rgba(230,226,217,255) ;
+}
+
+#second-content{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: rgba(230,226,217,255) ;
+}
+
+#third-content{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: black;
+}
+
+#first-inner-content{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#desc-first-inner-content{
+    display: flex;
+    flex-direction: column;
+    width: 890px;
+}
+
+#title-desc-first-inner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 54px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#text-desc-first-inner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+}
+
+#second-inner-content{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#legends-place-second-inner-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.legends-card-second-inner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-legends-card-second-inner-content{
+    width: 265px;
+}
+
+.name-legends-card-second-inner-content{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 24px;
+}
+
+.desc-legends-card-second-inner-content{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+
+#third-inner-content{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#place-third-inner-content{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title-third-inner-content{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+
+#text-1-third-inner-content{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#button-third-inner-content{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Rajdhani', sans-serif;
+    padding: 10px;
+    border: solid white 3px;
+    border-radius: 3px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+#button-third-inner-content:hover{
+    background-color: black;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+#text-2-third-inner-content{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+@media (max-width: 1100px){
+    body{
+        background-color: black;
+    }
+    
+    .background-img{
+        width: 100%;
+    }
+    
+    .background-img-red{
+        width: 100%;
+        height: 375px;
+        object-fit: cover;
+    }
+    
+    #first-content{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: rgba(230,226,217,255) ;
+    }
+    
+    #second-content{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: rgba(230,226,217,255) ;
+    }
+    
+    #third-content{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: black;
+    }
+    
+    #first-inner-content{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    
+    #desc-first-inner-content{
+        display: flex;
+        flex-direction: column;
+        width: 890px;
+    }
+    
+    #title-desc-first-inner-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 54px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    #text-desc-first-inner-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        font-size: 24px;
+    }
+    
+    #second-inner-content{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #legends-place-second-inner-content{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    
+    .legends-card-second-inner-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .img-legends-card-second-inner-content{
+        width: 220px;
+    }
+    
+    .name-legends-card-second-inner-content{
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        color: black;
+        font-size: 24px;
+    }
+    
+    .desc-legends-card-second-inner-content{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        color: black;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    #third-inner-content{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    
+    #place-third-inner-content{
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #title-third-inner-content{
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 44px;
+        margin-bottom: 30px;
+    }
+    
+    #text-1-third-inner-content{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    #button-third-inner-content{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Rajdhani', sans-serif;
+        padding: 10px;
+        border: solid white 3px;
+        border-radius: 3px;
+        margin-bottom: 80px;
+    }
+    
+    #button-third-inner-content:hover{
+        background-color: black;
+        opacity: 0.6;
+        transition: 0.5s;
+    }
+    
+    #text-2-third-inner-content{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        text-align: center;
+    }    
+}
+
+@media (max-width: 800px){
+    body{
+        background-color: black;
+    }
+    
+    .background-img{
+        width: 100%;
+    }
+    
+    .background-img-red{
+        width: 100%;
+        height: 375px;
+        object-fit: cover;
+    }
+    
+    #first-content{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: rgba(230,226,217,255) ;
+    }
+    
+    #second-content{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: rgba(230,226,217,255) ;
+    }
+    
+    #third-content{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: black;
+    }
+    
+    #first-inner-content{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    
+    #desc-first-inner-content{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+    }
+    
+    #meet-legends-img{
+        width: 40px;
+    }
+
+    #title-desc-first-inner-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #text-desc-first-inner-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    #second-inner-content{
+        position: static;
+        top: auto;
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    #legends-background-img-content{
+        display: none;    
+    }
+    
+    #legends-place-second-inner-content{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    
+    .legends-card-second-inner-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .img-legends-card-second-inner-content{
+        width: 220px;
+    }
+    
+    .name-legends-card-second-inner-content{
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        color: black;
+        font-size: 24px;
+    }
+    
+    .desc-legends-card-second-inner-content{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        color: black;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    #third-inner-content{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    
+    #place-third-inner-content{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #title-third-inner-content{
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    
+    #text-1-third-inner-content{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    #button-third-inner-content{
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Rajdhani', sans-serif;
+        padding: 10px;
+        border: solid white 3px;
+        border-radius: 3px;
+        margin-bottom: 60px;
+    }
+    
+    #button-third-inner-content:hover{
+        background-color: black;
+        opacity: 0.6;
+        transition: 0.5s;
+    }
+    
+    #text-2-third-inner-content{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        font-size: 13px;
+        text-align: center;
+    }    
+}
+
+
+
+

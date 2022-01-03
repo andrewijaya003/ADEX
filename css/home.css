@@ -1,0 +1,1003 @@
+body{
+    background-color: black;
+}
+
+.background-img{
+    width: 100%;
+}
+
+.background-video {
+    width: 100%;
+}
+
+#first-content{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: rgba(230,226,217,255) ;
+}
+
+#second-content{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: rgba(230,226,217,255) ;
+}
+
+#third-content{
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    background-color: rgba(37,37,37,255);
+}
+
+#first-inner-content{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin-left: 100px;
+}
+
+#play-for-free-hp-img-content{
+    display: none;
+}
+
+#desc-first-inner-content{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+#logo-desc-first-inner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#adex-logo-desc-first-inner-content{
+    font-size: 100px;
+}
+
+#legends-logo-desc-first-inner-content{
+    border-top: solid white 1px;
+    font-size: 33px;
+}
+
+#text-desc-first-inner-content{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#button-first-inner-content{
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+#play-button-first-inner-content, #trailer-button-first-inner-content{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: 'Oswald', sans-serif;
+    padding: 8px;
+    border: solid white 3px;
+}
+
+#play-button-first-inner-content:hover, #trailer-button-first-inner-content:hover{
+    background-color: black;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+#second-inner-content{
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title-second-inner-content{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+#under-title-second-inner-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#card-place-inner-content{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card-inner-content{
+    width: 350px;
+}
+
+.black-card-place-inner-content{
+    width: 280px;
+    background-color: black;
+    color: white;
+    height: 350px;
+}
+
+.upper-black-card-place-inner-content{
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+.left-upper-black-card-place-inner-content{
+    margin-right: 15px;
+    color: rgba(218,41,42,255);
+}
+
+.mid-black-card-place-inner-content{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.lower-black-card-place-inner-content{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Oswald', sans-serif;
+}
+
+.red-card-place-inner-content{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(218,41,42,255);
+}
+
+#third-inner-content{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.551);
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title-third-inner-content{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+#desc-third-inner-content{
+    font-size: 25px;
+    font-family: 'Rajdhani', sans-serif;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: center;
+}
+
+#under-desc-third-inner-content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.card-under-desc-third-inner-content{
+    width: 350px;
+    text-align: center;
+}
+
+.title-card-under-desc-third-inner-content{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+.text-card-under-desc-third-inner-content{
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.beyond-img{
+    width: 300px;
+}
+
+
+@media (max-width: 1030px){
+    body{
+        background-color: black;
+    }
+    
+    .background-img{
+        width: 100%;
+    }
+    
+    .background-video {
+        width: 100%;
+    }
+    
+    #first-content{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: rgba(230,226,217,255) ;
+    }
+    
+    #second-content{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: rgba(230,226,217,255) ;
+    }
+    
+    #third-content{
+        width: 100%;
+        height: fit-content;
+        position: relative;
+        background-color: rgba(37,37,37,255);
+    }
+    
+    #first-inner-content{
+        position: absolute;
+        top: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+        margin-left: 40px;
+    }
+
+    #play-for-free-hp-img-content{
+        display: none;
+    }
+    
+    #desc-first-inner-content{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+    }
+    
+    #logo-desc-first-inner-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    #adex-logo-desc-first-inner-content{
+        font-size: 100px;
+    }
+    
+    #legends-logo-desc-first-inner-content{
+        border-top: solid white 1px;
+        font-size: 33px;
+    }
+    
+    #text-desc-first-inner-content{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    #button-first-inner-content{
+        width: 500px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+    }
+    
+    #play-button-first-inner-content, #trailer-button-first-inner-content{
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        font-weight: lighter;
+        font-family: 'Oswald', sans-serif;
+        padding: 8px;
+        border: solid white 3px;
+    }
+    
+    #play-button-first-inner-content:hover, #trailer-button-first-inner-content:hover{
+        background-color: black;
+        opacity: 0.6;
+        transition: 0.5s;
+    }
+    
+    #second-inner-content{
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #title-second-inner-content{
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    
+    #under-title-second-inner-content{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    #card-place-inner-content{
+        width: 270px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .card-inner-content{
+        width: 270px;
+    }
+    
+    .black-card-place-inner-content{
+        width: 230px;
+        background-color: black;
+        color: white;
+        height: 300px;
+    }
+    
+    .upper-black-card-place-inner-content{
+        margin-top: 20px;
+        display: flex;
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-family: 'Oswald', sans-serif;
+        font-size: 16px;
+    }
+    
+    .left-upper-black-card-place-inner-content{
+        margin-right: 15px;
+        color: rgba(218,41,42,255);
+    }
+    
+    .mid-black-card-place-inner-content{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Rajdhani', sans-serif;
+    }
+    
+    .lower-black-card-place-inner-content{
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: lighter;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .red-card-place-inner-content{
+        width: 100%;
+        height: 10px;
+        background-color: rgba(218,41,42,255);
+    }
+    
+    #third-inner-content{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.551);
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #title-third-inner-content{
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    #desc-third-inner-content{
+        font-size: 20px;
+        font-family: 'Rajdhani', sans-serif;
+        margin-top: 8px;
+        margin-left: 60px;
+        margin-right: 60px;
+        text-align: center;
+    }
+    
+    #under-desc-third-inner-content{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        width: 100%;
+    }
+    
+    .card-under-desc-third-inner-content{
+        width: 250px;
+        text-align: center;
+    }
+    
+    .title-card-under-desc-third-inner-content{
+        margin-top: 8px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .text-card-under-desc-third-inner-content{
+        margin-top: 8px;
+        font-size: 16px;
+        font-family: 'Rajdhani', sans-serif;
+    }
+    
+    .beyond-img{
+        width: 100%;
+    }    
+}
+
+@media (max-width: 800px){
+    body{
+        background-color: black;
+    }
+    
+    .background-img{
+        width: 100%;
+    }
+    
+    .background-video {
+        width: 100%;
+    }
+    
+    #first-content{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: rgba(230,226,217,255) ;
+    }
+    
+    #second-content{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: rgba(230,226,217,255) ;
+    }
+    
+    #third-content{
+        width: 100%;
+        height: fit-content;
+        position: relative;
+        background-color: rgba(37,37,37,255);
+    }
+    
+    #first-inner-content{
+        position: absolute;
+        top: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+        margin-left: 20px;
+    }
+
+    #play-for-free-hp-img-content{
+        display: none;
+    }
+    
+    #desc-first-inner-content{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    }
+    
+    #logo-desc-first-inner-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    #adex-logo-desc-first-inner-content{
+        font-size: 80px;
+    }
+    
+    #legends-logo-desc-first-inner-content{
+        border-top: solid white 1px;
+        font-size: 30px;
+    }
+    
+    #text-desc-first-inner-content{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    #button-first-inner-content{
+        width: 400px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+    }
+    
+    #play-button-first-inner-content, #trailer-button-first-inner-content{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-weight: lighter;
+        font-family: 'Oswald', sans-serif;
+        padding: 8px;
+        border: solid white 3px;
+    }
+    
+    #play-button-first-inner-content:hover, #trailer-button-first-inner-content:hover{
+        background-color: black;
+        opacity: 0.6;
+        transition: 0.5s;
+    }
+    
+    #second-inner-content{
+        top: auto;
+        width: auto;
+        height: auto;
+        position: static;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #latest-news-img-content{
+        display: none;
+    }
+    
+    #title-second-inner-content{
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    
+    #under-title-second-inner-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    #card-place-inner-content{
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .card-inner-content{
+        width: 700px;
+    }
+    
+    .black-card-place-inner-content{
+        width: 670px;
+        background-color: black;
+        color: white;
+        height: 200px;
+    }
+    
+    .upper-black-card-place-inner-content{
+        margin-top: 20px;
+        display: flex;
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-family: 'Oswald', sans-serif;
+        font-size: 16px;
+    }
+    
+    .left-upper-black-card-place-inner-content{
+        margin-right: 15px;
+        color: rgba(218,41,42,255);
+    }
+    
+    .mid-black-card-place-inner-content{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Rajdhani', sans-serif;
+    }
+    
+    .lower-black-card-place-inner-content{
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: lighter;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .red-card-place-inner-content{
+        width: 100%;
+        height: 10px;
+        background-color: rgba(218,41,42,255);
+    }
+    
+    #third-inner-content{
+        position: static;
+        top: auto;
+        width: auto;
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.551);
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #title-third-inner-content{
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Oswald', sans-serif;
+        margin-top: 20px;
+    }
+    
+    #desc-third-inner-content{
+        font-size: 20px;
+        font-family: 'Rajdhani', sans-serif;
+        margin-top: 8px;
+        margin-left: 60px;
+        margin-right: 60px;
+        text-align: center;
+    }
+    
+    #under-desc-third-inner-content{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .card-under-desc-third-inner-content{
+        width: 250px;
+        text-align: center;
+    }
+    
+    .title-card-under-desc-third-inner-content{
+        margin-top: 8px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .text-card-under-desc-third-inner-content{
+        margin-top: 8px;
+        font-size: 16px;
+        font-family: 'Rajdhani', sans-serif;
+    }
+    
+    .beyond-img{
+        width: 100%;
+    }    
+}
+
+@media (max-width: 700px){
+    body{
+        background-color: black;
+    }
+    
+    .background-img{
+        width: 100%;
+    }
+    
+    .background-video {
+        width: 100%;
+    }
+    
+    #first-content{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: rgba(230,226,217,255) ;
+    }
+    
+    #second-content{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: rgba(230,226,217,255) ;
+    }
+    
+    #third-content{
+        width: 100%;
+        height: fit-content;
+        position: relative;
+        background-color: rgba(37,37,37,255);
+    }
+    
+    #first-inner-content{
+        position: absolute;
+        top: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin-left: 0px;
+    }
+
+    #play-for-free-img-content{
+        display: none;
+    }
+
+    #play-for-free-hp-img-content{
+        display: flex;
+    }
+    
+    #desc-first-inner-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    #logo-desc-first-inner-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+    #adex-logo-desc-first-inner-content{
+        font-size: 100px;
+    }
+    
+    #legends-logo-desc-first-inner-content{
+        border-top: solid white 1px;
+        font-size: 40px;
+    }
+    
+    #text-desc-first-inner-content{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    
+    #button-first-inner-content{
+        width: 350px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    #play-button-first-inner-content, #trailer-button-first-inner-content{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-weight: lighter;
+        font-family: 'Oswald', sans-serif;
+        padding: 8px;
+        border: solid white 3px;
+    }
+    
+    #play-button-first-inner-content:hover, #trailer-button-first-inner-content:hover{
+        background-color: black;
+        opacity: 0.6;
+        transition: 0.5s;
+    }
+    
+    #second-inner-content{
+        top: auto;
+        width: auto;
+        height: auto;
+        position: static;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #latest-news-img-content{
+        display: none;
+    }
+    
+    #title-second-inner-content{
+        color: black;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    
+    #under-title-second-inner-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    #card-place-inner-content{
+        width: 270px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .card-inner-content{
+        width: 270px;
+    }
+    
+    .black-card-place-inner-content{
+        width: 230px;
+        background-color: black;
+        color: white;
+        height: 300px;
+    }
+    
+    .upper-black-card-place-inner-content{
+        margin-top: 20px;
+        display: flex;
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-family: 'Oswald', sans-serif;
+        font-size: 16px;
+    }
+    
+    .left-upper-black-card-place-inner-content{
+        margin-right: 15px;
+        color: rgba(218,41,42,255);
+    }
+    
+    .mid-black-card-place-inner-content{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Rajdhani', sans-serif;
+    }
+    
+    .lower-black-card-place-inner-content{
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: lighter;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .red-card-place-inner-content{
+        width: 100%;
+        height: 10px;
+        background-color: rgba(218,41,42,255);
+    }
+    
+    #third-inner-content{
+        position: static;
+        top: auto;
+        width: auto;
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.551);
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #title-third-inner-content{
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Oswald', sans-serif;
+        margin-top: 20px;
+    }
+    
+    #desc-third-inner-content{
+        font-size: 20px;
+        font-family: 'Rajdhani', sans-serif;
+        margin-top: 8px;
+        margin-left: 60px;
+        margin-right: 60px;
+        text-align: center;
+    }
+    
+    #under-desc-third-inner-content{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    
+    .card-under-desc-third-inner-content{
+        width: 250px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .title-card-under-desc-third-inner-content{
+        margin-top: 8px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .text-card-under-desc-third-inner-content{
+        margin-top: 8px;
+        font-size: 16px;
+        font-family: 'Rajdhani', sans-serif;
+    }
+    
+    .beyond-img{
+        width: 100%;
+    }    
+}

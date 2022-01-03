@@ -1,0 +1,1687 @@
+body{
+    background-color: black;
+}
+
+.background-img{
+    width: 100%;
+}
+
+.background-img-red{
+    width: 100%;
+    height: 375px;
+    object-fit: cover;
+}
+
+#first-content{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: rgba(230,226,217,255) ;
+}
+
+#second-content{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: rgba(230,226,217,255) ;
+}
+
+#third-content{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: black;
+}
+
+#first-inner-content{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#logo-first-inner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+#adex-logo-first-inner-content{
+    font-size: 120px;
+}
+
+#legends-logo-first-inner-content{
+    border-top: solid white 1px;
+    font-size: 40px;
+}
+
+#text-1-first-inner-content{
+    font-size: 22px;
+    width: 600px;
+    text-align: center;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#text-2-first-inner-content{
+    font-size: 18px;
+    width: 600px;
+    text-align: center;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: lighter;
+}
+
+#button-first-inner-content{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Rajdhani', sans-serif;
+    padding: 10px;
+    border: solid white 3px;
+    border-radius: 3px;
+    margin-bottom: 80px;
+}
+
+#button-first-inner-content:hover{
+    background-color: black;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+#second-inner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#first-second-inner-content{
+    width: 1100px;
+    height: 465px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background-color: rgba(30,30,30,255);
+    margin-bottom: 50px;
+}
+
+#first-about-us-img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border-right: solid rgba(218,41,42,255) 5px;
+}
+
+#right-first-second-inner-content{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner-right-first-second-inner-content{
+    width: 450px;
+    padding-bottom: 10px;
+}
+
+#title-right-first-second-inner-content{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 44px;
+}
+
+#desc-right-first-second-inner-content{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#button-right-first-second-inner-content{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Rajdhani', sans-serif;
+    background-color: rgba(218,41,42,255);
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#button-right-first-second-inner-content:hover{
+    background-color: red;
+    transition: 0.3s;
+}
+
+#second-second-inner-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#second-about-us{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#title-second-second-inner-content{
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 44px;
+}
+
+#desc-second-second-inner-content{  
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Rajdhani', sans-serif;
+    width: 800px;
+    text-align: center;
+}
+
+#third-second-inner-content{
+    width: 1100px;
+    height: 465px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background-color: rgba(30,30,30,255);
+    margin-bottom: 50px;
+}
+
+#third-about-us-img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border-left: solid rgba(218,41,42,255) 5px;
+}
+
+#right-third-second-inner-content{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner-right-third-second-inner-content{
+    width: 450px;
+}
+
+#title-right-third-second-inner-content{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 44px;
+}
+
+#desc-right-third-second-inner-content{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#button-right-third-second-inner-content{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Rajdhani', sans-serif;
+    padding: 10px;
+    background-color: rgba(218,41,42,255);
+    border-radius: 3px;
+}
+
+#button-right-third-second-inner-content:hover{
+    background-color: red;
+    transition: 0.3s;
+}
+
+#fourth-second-inner-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#card-place-fourth-second-inner-content{
+    width: 1100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-fourth-second-inner-content{
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-card-about-us-img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.text-card-fourth-second-inner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 300px;
+}
+
+.title-card-fourth-second-inner-content{
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.desc-card-fourth-second-inner-content{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#fifth-second-inner-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#separator-about-us-img{
+    margin-bottom: 80px;
+}
+
+#text-fifth-second-inner-content{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title-fifth-second-inner-content{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#desc-1-fifth-second-inner-content, #desc-2-fifth-second-inner-content, #desc-3-fifth-second-inner-content{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#third-inner-content{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#place-third-inner-content{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title-third-inner-content{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+
+#text-1-third-inner-content{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#button-third-inner-content{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Rajdhani', sans-serif;
+    padding: 10px;
+    border: solid white 3px;
+    border-radius: 3px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+#button-third-inner-content:hover{
+    background-color: black;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+#text-2-third-inner-content{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+@media (max-width: 1030px){
+    body{
+        background-color: black;
+    }
+    
+    .background-img{
+        width: 100%;
+    }
+    
+    .background-img-red{
+        width: 100%;
+        height: 375px;
+        object-fit: cover;
+    }
+    
+    #first-content{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: rgba(230,226,217,255) ;
+    }
+    
+    #second-content{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: rgba(230,226,217,255) ;
+    }
+    
+    #third-content{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: black;
+    }
+    
+    #first-inner-content{
+        position: absolute;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+    }
+    
+    #logo-first-inner-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+    }
+    
+    #adex-logo-first-inner-content{
+        font-size: 120px;
+    }
+    
+    #legends-logo-first-inner-content{
+        border-top: solid white 1px;
+        font-size: 40px;
+    }
+    
+    #text-1-first-inner-content{
+        font-size: 22px;
+        width: 600px;
+        text-align: center;
+        color: white;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #text-2-first-inner-content{
+        font-size: 18px;
+        width: 600px;
+        text-align: center;
+        color: white;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: lighter;
+    }
+    
+    #button-first-inner-content{
+        margin-top: 20px;
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Rajdhani', sans-serif;
+        padding: 10px;
+        border: solid white 3px;
+        border-radius: 3px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    
+    #button-first-inner-content:hover{
+        background-color: black;
+        opacity: 0.6;
+        transition: 0.5s;
+    }
+    
+    #second-inner-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    #first-second-inner-content{
+        width: 900px;
+        height: 410px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: white;
+        background-color: rgba(30,30,30,255);
+        margin-bottom: 50px;
+    }
+    
+    #first-about-us-img{
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+        border-right: solid rgba(218,41,42,255) 5px;
+    }
+    
+    #right-first-second-inner-content{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #inner-right-first-second-inner-content{
+        width: 350px;
+        padding-bottom: 10px;
+    }
+    
+    #title-right-first-second-inner-content{
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 44px;
+    }
+    
+    #desc-right-first-second-inner-content{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
+    #button-right-first-second-inner-content{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Rajdhani', sans-serif;
+        padding: 10px;
+        background-color: rgba(218,41,42,255);
+        border-radius: 3px;
+    }
+    
+    #button-right-first-second-inner-content:hover{
+        background-color: red;
+        transition: 0.3s;
+    }
+    
+    #second-second-inner-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    
+    #second-about-us{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    #title-second-second-inner-content{
+        margin-bottom: 20px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 44px;
+    }
+    
+    #desc-second-second-inner-content{  
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Rajdhani', sans-serif;
+        width: 800px;
+        text-align: center;
+    }
+    
+    #third-second-inner-content{
+        width: 900px;
+        height: 410px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: white;
+        background-color: rgba(30,30,30,255);
+        margin-bottom: 50px;
+    }
+    
+    #third-about-us-img{
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+        border-left: solid rgba(218,41,42,255) 5px;
+    }
+    
+    #right-third-second-inner-content{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #inner-right-third-second-inner-content{
+        width: 350px;
+        padding-bottom: 10px;
+    }
+    
+    #title-right-third-second-inner-content{
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 44px;
+    }
+    
+    #desc-right-third-second-inner-content{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
+    #button-right-third-second-inner-content{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Rajdhani', sans-serif;
+        padding: 10px;
+        background-color: rgba(218,41,42,255);
+        border-radius: 3px;
+    }
+    
+    #button-right-third-second-inner-content:hover{
+        background-color: red;
+        transition: 0.3s;
+    }
+    
+    #fourth-second-inner-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    
+    #card-place-fourth-second-inner-content{
+        width: 900px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .card-fourth-second-inner-content{
+        width: 275px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .first-card-about-us-img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .text-card-fourth-second-inner-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 250px;
+    }
+    
+    .title-card-fourth-second-inner-content{
+        display: flex;
+        justify-content: flex-start;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .desc-card-fourth-second-inner-content{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    
+    #fifth-second-inner-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #separator-about-us-img{
+        margin-bottom: 80px;
+    }
+    
+    #text-fifth-second-inner-content{
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #title-fifth-second-inner-content{
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    
+    #desc-1-fifth-second-inner-content, #desc-2-fifth-second-inner-content, #desc-3-fifth-second-inner-content{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    #third-inner-content{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    
+    #place-third-inner-content{
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #title-third-inner-content{
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 44px;
+        margin-bottom: 30px;
+    }
+    
+    #text-1-third-inner-content{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    #button-third-inner-content{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Rajdhani', sans-serif;
+        padding: 10px;
+        border: solid white 3px;
+        border-radius: 3px;
+        margin-bottom: 80px;
+    }
+    
+    #button-third-inner-content:hover{
+        background-color: black;
+        opacity: 0.6;
+        transition: 0.5s;
+    }
+    
+    #text-2-third-inner-content{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 800px){
+    body{
+        background-color: black;
+    }
+    
+    .background-img{
+        width: 100%;
+        height: 375px;
+    }
+    
+    .background-img-red{
+        width: 100%;
+        height: 375px;
+        object-fit: cover;
+    }
+    
+    #first-content{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: rgba(230,226,217,255) ;
+    }
+    
+    #second-content{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: rgba(230,226,217,255) ;
+    }
+    
+    #third-content{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: black;
+    }
+    
+    #first-inner-content{
+        position: absolute;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+    }
+
+    #icon-meet-legends-img{
+        width: 60px;
+    }
+    
+    #logo-first-inner-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+    }
+    
+    #adex-logo-first-inner-content{
+        font-size: 60px;
+    }
+    
+    #legends-logo-first-inner-content{
+        border-top: solid white 1px;
+        font-size: 20px;
+    }
+    
+    #text-1-first-inner-content{
+        font-size: 16px;
+        width: 350px;
+        text-align: center;
+        color: white;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #text-2-first-inner-content{
+        font-size: 14px;
+        width: 350px;
+        text-align: center;
+        color: white;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: lighter;
+    }
+    
+    #button-first-inner-content{
+        margin-top: 10px;
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: 'Rajdhani', sans-serif;
+        padding: 10px;
+        border: solid white 3px;
+        border-radius: 3px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    
+    #button-first-inner-content:hover{
+        background-color: black;
+        opacity: 0.6;
+        transition: 0.5s;
+    }
+    
+    #second-inner-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    #first-second-inner-content{
+        width: 700px;
+        height: 580px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        background-color: rgba(30,30,30,255);
+        margin-bottom: 50px;
+    }
+    
+    #first-about-us-img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-right: none;
+        border-bottom: solid rgba(218,41,42,255) 5px;
+    }
+    
+    #right-first-second-inner-content{
+        width: 100%;
+        margin-top: 10px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #inner-right-first-second-inner-content{
+        width: 650px;
+        padding-bottom: 10px;
+    }
+    
+    #title-right-first-second-inner-content{
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    #desc-right-first-second-inner-content{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    
+    #button-right-first-second-inner-content{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: 'Rajdhani', sans-serif;
+        padding: 10px;
+        background-color: rgba(218,41,42,255);
+        border-radius: 3px;
+    }
+    
+    #button-right-first-second-inner-content:hover{
+        background-color: red;
+        transition: 0.3s;
+    }
+    
+    #second-second-inner-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    
+    #second-about-us{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    #title-second-second-inner-content{
+        margin-bottom: 20px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    #desc-second-second-inner-content{  
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Rajdhani', sans-serif;
+        width: 500px;
+        text-align: center;
+    }
+    
+    #third-second-inner-content{
+        width: 700px;
+        height: 580px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        background-color: rgba(30,30,30,255);
+        margin-bottom: 50px;
+    }
+    
+    #third-about-us-img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-left: none;
+        border-top: solid rgba(218,41,42,255) 5px;
+    }
+    
+    #right-third-second-inner-content{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    #inner-right-third-second-inner-content{
+        width: 650px;
+        padding-bottom: 10px;
+    }
+    
+    #title-right-third-second-inner-content{
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    #desc-right-third-second-inner-content{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    
+    #button-right-third-second-inner-content{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: 'Rajdhani', sans-serif;
+        padding: 10px;
+        background-color: rgba(218,41,42,255);
+        border-radius: 3px;
+    }
+    
+    #button-right-third-second-inner-content:hover{
+        background-color: red;
+        transition: 0.3s;
+    }
+    
+    #fourth-second-inner-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    
+    #card-place-fourth-second-inner-content{
+        width: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .card-fourth-second-inner-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .first-card-about-us-img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .text-card-fourth-second-inner-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 650px;
+    }
+    
+    .title-card-fourth-second-inner-content{
+        display: flex;
+        justify-content: flex-start;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    
+    .desc-card-fourth-second-inner-content{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    
+    #fifth-second-inner-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #separator-about-us-img{
+        width: 700px;
+        margin-bottom: 50px;
+    }
+    
+    #text-fifth-second-inner-content{
+        width: 650px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #title-fifth-second-inner-content{
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    
+    #desc-1-fifth-second-inner-content, #desc-2-fifth-second-inner-content, #desc-3-fifth-second-inner-content{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    #third-inner-content{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    
+    #place-third-inner-content{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #title-third-inner-content{
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    
+    #text-1-third-inner-content{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    #button-third-inner-content{
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Rajdhani', sans-serif;
+        padding: 10px;
+        border: solid white 3px;
+        border-radius: 3px;
+        margin-bottom: 60px;
+    }
+    
+    #button-third-inner-content:hover{
+        background-color: black;
+        opacity: 0.6;
+        transition: 0.5s;
+    }
+    
+    #text-2-third-inner-content{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        font-size: 13px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 700px){
+    body{
+        background-color: black;
+    }
+    
+    .background-img{
+        width: 100%;
+        height: 375px;
+    }
+    
+    .background-img-red{
+        width: 100%;
+        height: 375px;
+        object-fit: cover;
+    }
+    
+    #first-content{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: rgba(230,226,217,255) ;
+    }
+    
+    #second-content{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: rgba(230,226,217,255) ;
+    }
+    
+    #third-content{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: black;
+    }
+    
+    #first-inner-content{
+        position: absolute;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+    }
+
+    #icon-meet-legends-img{
+        width: 60px;
+    }
+    
+    #logo-first-inner-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+    }
+    
+    #adex-logo-first-inner-content{
+        font-size: 60px;
+    }
+    
+    #legends-logo-first-inner-content{
+        border-top: solid white 1px;
+        font-size: 20px;
+    }
+    
+    #text-1-first-inner-content{
+        font-size: 16px;
+        width: 350px;
+        text-align: center;
+        color: white;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #text-2-first-inner-content{
+        font-size: 14px;
+        width: 350px;
+        text-align: center;
+        color: white;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: lighter;
+    }
+    
+    #button-first-inner-content{
+        margin-top: 10px;
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: 'Rajdhani', sans-serif;
+        padding: 10px;
+        border: solid white 3px;
+        border-radius: 3px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    
+    #button-first-inner-content:hover{
+        background-color: black;
+        opacity: 0.6;
+        transition: 0.5s;
+    }
+    
+    #second-inner-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    #first-second-inner-content{
+        width: 350px;
+        height: 410px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        background-color: rgba(30,30,30,255);
+        margin-bottom: 50px;
+    }
+    
+    #first-about-us-img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-right: none;
+        border-bottom: solid rgba(218,41,42,255) 5px;
+    }
+    
+    #right-first-second-inner-content{
+        width: 100%;
+        margin-top: 10px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #inner-right-first-second-inner-content{
+        width: 320px;
+        padding-bottom: 10px;
+    }
+    
+    #title-right-first-second-inner-content{
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    #desc-right-first-second-inner-content{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    
+    #button-right-first-second-inner-content{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: 'Rajdhani', sans-serif;
+        padding: 10px;
+        background-color: rgba(218,41,42,255);
+        border-radius: 3px;
+    }
+    
+    #button-right-first-second-inner-content:hover{
+        background-color: red;
+        transition: 0.3s;
+    }
+    
+    #second-second-inner-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    
+    #second-about-us{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    #title-second-second-inner-content{
+        margin-bottom: 20px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    #desc-second-second-inner-content{  
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Rajdhani', sans-serif;
+        width: 350px;
+        text-align: center;
+    }
+    
+    #third-second-inner-content{
+        width: 350px;
+        height: 410px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        background-color: rgba(30,30,30,255);
+        margin-bottom: 50px;
+    }
+    
+    #third-about-us-img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-left: none;
+        border-top: solid rgba(218,41,42,255) 5px;
+    }
+    
+    #right-third-second-inner-content{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    #inner-right-third-second-inner-content{
+        width: 320px;
+        padding-bottom: 10px;
+    }
+    
+    #title-right-third-second-inner-content{
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    #desc-right-third-second-inner-content{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    
+    #button-right-third-second-inner-content{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: 'Rajdhani', sans-serif;
+        padding: 10px;
+        background-color: rgba(218,41,42,255);
+        border-radius: 3px;
+    }
+    
+    #button-right-third-second-inner-content:hover{
+        background-color: red;
+        transition: 0.3s;
+    }
+    
+    #fourth-second-inner-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    
+    #card-place-fourth-second-inner-content{
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .card-fourth-second-inner-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .first-card-about-us-img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .text-card-fourth-second-inner-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 320px;
+    }
+    
+    .title-card-fourth-second-inner-content{
+        display: flex;
+        justify-content: flex-start;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    
+    .desc-card-fourth-second-inner-content{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    
+    #fifth-second-inner-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #separator-about-us-img{
+        width: 350px;
+        margin-bottom: 50px;
+    }
+    
+    #text-fifth-second-inner-content{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #title-fifth-second-inner-content{
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    
+    #desc-1-fifth-second-inner-content, #desc-2-fifth-second-inner-content, #desc-3-fifth-second-inner-content{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    #third-inner-content{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    
+    #place-third-inner-content{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #title-third-inner-content{
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    
+    #text-1-third-inner-content{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    #button-third-inner-content{
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Rajdhani', sans-serif;
+        padding: 10px;
+        border: solid white 3px;
+        border-radius: 3px;
+        margin-bottom: 60px;
+    }
+    
+    #button-third-inner-content:hover{
+        background-color: black;
+        opacity: 0.6;
+        transition: 0.5s;
+    }
+    
+    #text-2-third-inner-content{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: bold;
+        font-size: 13px;
+        text-align: center;
+    }
+}
