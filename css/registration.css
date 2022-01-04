@@ -116,6 +116,7 @@ button:hover{
         color: white;
         border-radius: 8px;
         padding: 30px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
     
     .input-label{
@@ -219,6 +220,7 @@ button:hover{
         margin-top: 30px;
         border-radius: 8px;
         padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
     
     .input-label{
@@ -322,6 +324,7 @@ button:hover{
         margin-top: 30px;
         border-radius: 8px;
         padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
     
     .input-label{
