@@ -46,6 +46,10 @@ body{
     width: 0px;
 }
 
+label{
+    margin-bottom: 5px;
+}
+
 input{
     border-radius: 20px;
     border: solid white 3px;
@@ -208,9 +212,9 @@ button:hover{
     }
     
     #inner-content{
-        width: 350px;
+        width: 600px;
         height: 500px;
-        background-color: rgba(30,30,30,255);
+        background-color: rgba(30,30,30,225);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -219,7 +223,7 @@ button:hover{
         margin-bottom: 30px;
         margin-top: 30px;
         border-radius: 8px;
-        padding: 10px;
+        padding: 30px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
     
